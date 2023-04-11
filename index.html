@@ -10,44 +10,40 @@
       <header>
         <img src="images.device/logo black.png" width="145" height="36" alt="Логотип">
         <nav>
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <form class="navigation-form" method="post" action="#">
-                <label>
-                  <input class="serch-input" placeholder="Поиск по сайту" type="text">
-                </label>
-                <buttom class="navigation-serch-input" type="submit">
-                  <span class="search-span">
-                    Найти
-                  </span>
-                </buttom>
-              </form>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">
-                Войти
-              </a>
-            </li>
-          </ul>
-          <ul class="buy-list">
-            <li class="buy-item">
-              <a class="buy-link" href="#">
-                Сравнить
-              </a>
-            </li>
-            <li class="buy-item">
-              <a class="buy-link" href="#">
-                Корзина
-              </a>
-            </li>
-          </ul>
-        </nav>
+          <form class="navigation-form" method="post" action="#">
+            <label>
+              Поиск<input class="serch-input" placeholder="Поиск по сайту" type="text">
+            </label>
+            <button class="navigation-serch-input" type="submit">
+              <span class="search-span">
+                Найти
+              </span>
+            </button>
+          </form>
+            <ul class="user-menu">
+              <li class="navigation-item">
+                <a class="navigation-link" href="#">
+                  Войти
+                </a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#">
+                  Сравнить
+                </a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#">
+                  Корзина
+                </a>
+              </li>
+            </ul>
+          </nav>
         <div class="servise">
-          <buttom class="servis-buttom" type="submit">
+          <button class="servis-button" type="submit">
             <span class="servise-span">
               Каталог товаров
             </span>
-          </buttom>
+          </button>
           <ul class="servise-list">
             <li class="servise-item">
               <a class="servise-link" href="#">
@@ -69,30 +65,86 @@
       </header>
       <main class="main=container main-index">
         <div class="slider">
-          <img src="images.device/gitattributes.jpg" class="cvadrocopter" width="560" height="560" alt="Квадрокоптер.">
-          <h1>
-            Порхает как бабочка,<br> жалит как пчела!
-          </h1>
-          <p>
-            Этот обычный, на первый взгляд, квадрокоптер оснащён<br> мощным лазером, замаскированным под стандартную камеру.
-          </p>
-          <a class="cvadrocopter-more" href="#">
-            Подробнее
-          </a>
-          <div class="size">
-            <h2 class="size-h2">
-              800 м
-            </h2>
-            <p class="size-p">
-              Дальность полёта
-            </p>
-            <h2 class="size-h2">
-              50 м
-            </h2>
-            <p class="size-p">
-              Радиус поражения
-            </p>
-          </div>
+          <ol class="slider-list">
+            <li class="slider-item">
+              <img src="images.device/slider-1.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
+              <h1>
+                Порхает как бабочка,<br> жалит как пчела!
+              </h1>
+              <p>
+                Этот обычный, на первый взгляд, квадрокоптер оснащён<br> мощным лазером, замаскированным под стандартную камеру.
+              </p>
+              <a class="slider-more" href="#">
+                Подробнее
+              </a>
+              <dl>
+                <dt>
+                  800 м
+                </dt>
+                <dd>
+                  Дальность полёта
+                </dd>
+                <dt>
+                  50 м
+                </dt>
+                <dd>
+                  Радиус поражения
+                </dd>
+              </dl>
+            </li>
+            <li class="slider-item">
+              <img src="images.device/slider-2.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
+              <h1>
+                Худеем<br> правильно!
+              </h1>
+              <p>
+                Мотивирующие фитнес-браслеты помогут найти в себе силы<br> не пропускать занятия и соблюдать диету.
+              </p>
+              <a class="slider-more" href="#">
+                Подробнее
+              </a>
+              <dl>
+                <dt>
+                  48 часов
+                </dt>
+                <dd>
+                  Без подзарядки
+                </dd>
+              </dl>
+            </li>
+            <li class="slider-item">
+              <img src="images.device/slider-3.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
+              <h1>
+                Делай селфи,<br> как Бен Стиллер!
+              </h1>
+              <p>
+                Самая длинная палка для селфи доступна в нашем магазине.<br> Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
+              </p>
+              <a class="slider-more" href="#">
+                Подробнее
+              </a>
+              <dl>
+                <dt>
+                  8,5 м
+                </dt>
+                <dd>
+                  Длина палки
+                </dd>
+                <dt>
+                  5 кг
+                </dt>
+                <dd>
+                  Вес палки
+                </dd>
+                <dt>
+                  Карбон
+                </dt>
+                <dd>
+                  Материал
+                </dd>
+              </dl>
+            </li>
+          </ol>
         </div>
         <section class="category">
           <ul class="category-list">
@@ -146,15 +198,18 @@
             </li>
           </ul>
         </section>
-        <div class="delivery">
-          <img src="images.device/Group.png" class="delivery-pic1" width="287" height="319" alt="Доставка, гарантия, кредит">
-          <h1>
-            Доставка
-          </h1>
-          <p>
-            Мы с удовольствием доставим ваш товар прямо <br> к вашему подъезду совершенно бесплатно! Ведь<br> мы неплохо заработаем, поднимая его на ваш этаж.
-          </p>
-          <img src="images.device/картинка.png" class="delivery-pic2" width="136" height="164">
+        <div class="service.2">
+          <ul class="service.2-list">
+            <li class="service.2-item">
+            <h1>
+              Доставка
+            </h1>
+            <p>
+              Мы с удовольствием доставим ваш товар прямо <br> к вашему подъезду совершенно бесплатно! Ведь<br> мы неплохо заработаем, поднимая его на ваш этаж.
+            </p>
+            <img src="images.device/картинка.png" class="delivery-pic2" width="136" height="164">
+          </li>
+        </ul>
         </div>
         <div class="speciall-offer">
           <img src="images.device/Car.png" class="speaciall-offer-pic" width="125" height="100">
@@ -225,13 +280,13 @@
           </p>
           <form class="newsletter-form" action="#" method="post">
             <label>
-              <input class="filed" placeholder="Ваш e-mail" type="email">
+              e-mail<input class="filed" placeholder="Ваш e-mail" type="email">
             </label>
-            <buttom class="newsletter-buttom" type="submit">
+            <button class="newsletter-button" type="submit">
               <span class="newsletter-span">
                 Подписаться
               </span>
-            </buttom>
+            </button>
           </form>
           <p>
             Это бесплатно
@@ -239,6 +294,66 @@
         </section>
       </main>
       <footer>
+        <img src="images.device/logo yellow.png" class="logo-footer" width="145" height="36" alt="device">
+        <adress>
+          Санкт-Петербург, набережная<br>
+          реки Карповки, 5, литера П.
+        </adress>
+        <div class="servise-footer">
+          <button class="servis-button" type="submit">
+            <span class="servise-span">
+              Каталог товаров
+            </span>
+          </button>
+          <ul class="servise-messengers">
+            <li class="servise-item">
+              <a class="servise-link" href="#">
+                Доставка
+              </a>
+            </li>
+            <li class="servise-item">
+              <a class="servise-link" href="#">
+                Гарантия
+              </a>
+            </li>
+            <li class="servise-item">
+              <a class="servise-link" href="#">
+                Контакты
+              </a>
+            </li>
+          </ul>
+          <ul class="messsengers">
+            <li class="messengers-item">
+              <a class="messengers-link" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">
+                  Телеграмм
+                </span>
+              </a>
+            </li>
+            <li class="messengers-item">
+              <a class="messengers-link" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">
+                  Ютуб
+                </span>
+              </a>
+            </li>
+            <li class="messengers-item">
+              <a class="messengers-link" href="https://twitter.com/htmlacademy_ru">
+                <span class="visually-hidden">
+                  Твиттер
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div tel-and-html.logo>
+          <a href="tel:+78128121212" class="phone-number">
+            +7 (812) 812-12-12
+          </a>
+          <a class="html.logo-link">
+            <img src="images.device/html logo.png" class="html.logo" >
+          </a>
+        </div>
       </footer>
     </div>
   </body>
