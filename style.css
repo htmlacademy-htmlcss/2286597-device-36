@@ -1,3 +1,234 @@
+@font-face {
+  font-Family: "Raleway";
+  font-weight: 800;
+  src: url("../2286597-device-36/fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-Family: "Rubik";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../2286597-device-36/fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-Family: "Rubik";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../2286597-device-36/fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Rubik";
+  font-size: 18px;
+  line-height: 30px;
+}
+
+header {
+  margin: 0 auto;
+  width: 1160px;
+  background-image: url("../2286597-device-36/images.device/Rectangle.png");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 359px;
+  height: 40px;
+  padding: 0px 0px 0px 16px;
+  border: 2px solid #000000;
+  border-radius: 50px 0px 0px 50px;
+}
+
+::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navigation-serch-input {
+  width: 160px;
+  height: 40px;
+  border: 2px solid #000000;
+  border-radius: 0px 50px 50px 0px;
+  margin-left: 0px;
+}
+
+.search-span {
+  font-size: 16px;
+  line-height: 20px;
+  width: 48px;
+  height: 20px;
+}
+
+.user-menu {
+  display: flex;
+}
+
+.login {
+  width: 231px;
+  height: 30px;
+}
+
+.login-link {
+  text-decoration: none;
+  color: black;
+}
+
+.goods {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 30px;
+}
+
+.goods-link {
+  text-decoration: none;
+  color: black;
+}
+
+.goods-compare-item {
+  width: 105px;
+  height: 30px;
+}
+
+.goods-basket-item {
+  width: 99px;
+  height: 30px;
+}
+
+.servise {
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.servis-button {
+  width: 293px;
+  height: 50px;
+}
+
+.servise-list {
+  display: flex;
+  justify-content: space-between;
+  width: 471px;
+  height: 21px;
+}
+
+.servise-item {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.servise-link {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  margin: 0 auto;
+  width: 1160px;
+}
+
+.category{
+  width: inherit;
+  height: 253px;
+  margin: 0 auto;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.category-item {
+  width: 160px;
+  height: 253px;
+}
+
 .category-pic {
-  background-color: yellow;
+  background-image: url("../2286597-device-36/images.device/Rectangle\ 8.png");
+}
+
+.category-fg {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.service.2-item {
+  width: 1160px;
+  height: 319px;
+  display: flex;
+}
+
+.serv-info {
+  width: 490px;
+  height: 174px;
+}
+
+.infom-company {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us {
+  width: 520px;
+  height: 493px;
+}
+
+.contacts {
+  width: 532px;
+  height: 545px;
+}
+
+.filed {
+  width: 557px;
+  height: 55px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.newsletter {
+  background-color: #C4C4C4;
+}
+
+.newsletter-button {
+  width: 253px;
+  height: 57px;
+  border: 3px solid #C4C4C4;
+  background-color: white;
+}
+
+.newsletter-span {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
 }

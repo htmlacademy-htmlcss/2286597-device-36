@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link rel="#" href="#">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
@@ -12,7 +12,7 @@
         <nav>
           <form class="navigation-form" method="post" action="#">
             <label>
-              Поиск<input class="serch-input" placeholder="Поиск по сайту" type="text">
+              Поиск<input class="search-input" placeholder="Поиск по сайту" type="text">
             </label>
             <button class="navigation-serch-input" type="submit">
               <span class="search-span">
@@ -21,21 +21,23 @@
             </button>
           </form>
             <ul class="user-menu">
-              <li class="navigation-item">
-                <a class="navigation-link" href="#">
+              <li class="login">
+                <a class="login-link" href="#">
                   Войти
                 </a>
               </li>
-              <li class="navigation-item">
-                <a class="navigation-link" href="#">
+              <div class="goods">
+              <li class="goods-compare-item">
+                <a class="goods-link" href="#">
                   Сравнить
                 </a>
               </li>
-              <li class="navigation-item">
-                <a class="navigation-link" href="#">
+              <li class="goods-basket-item">
+                <a class="goods-link" href="#">
                   Корзина
                 </a>
               </li>
+              </div>
             </ul>
           </nav>
         <div class="servise">
@@ -68,6 +70,7 @@
           <ol class="slider-list">
             <li class="slider-item">
               <img src="images.device/slider-1.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
+              <!--<div class="information">-->
               <h1>
                 Порхает как бабочка,<br> жалит как пчела!
               </h1>
@@ -91,9 +94,11 @@
                   Радиус поражения
                 </dd>
               </dl>
+              <!--</div>-->
             </li>
             <li class="slider-item">
               <img src="images.device/slider-2.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
+              <!--<div class="information">-->
               <h1>
                 Худеем<br> правильно!
               </h1>
@@ -111,9 +116,11 @@
                   Без подзарядки
                 </dd>
               </dl>
+              <!--</div>-->
             </li>
             <li class="slider-item">
               <img src="images.device/slider-3.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
+              <!--<div class="information">-->
               <h1>
                 Делай селфи,<br> как Бен Стиллер!
               </h1>
@@ -143,6 +150,7 @@
                   Материал
                 </dd>
               </dl>
+              <!--</div>-->
             </li>
           </ol>
         </div>
@@ -201,13 +209,43 @@
         <div class="service.2">
           <ul class="service.2-list">
             <li class="service.2-item">
+            <div class="serv-info">
             <h1>
               Доставка
             </h1>
             <p>
               Мы с удовольствием доставим ваш товар прямо <br> к вашему подъезду совершенно бесплатно! Ведь<br> мы неплохо заработаем, поднимая его на ваш этаж.
             </p>
+            </div>
+            <div class="pic">
             <img src="images.device/картинка.png" class="delivery-pic2" width="136" height="164">
+            </div>
+          </li>
+          <li class="service.2-item">
+            <div class="serv-info">
+            <h1>
+              Гарантия
+            </h1>
+            <p>
+              Если из-за возгорания купленного у нас товара у вас<br> сгорит дом — не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.
+            </p>
+            </div>
+            <div class="pic">
+            <img src="images.device/Frame.svg" class="delivery-pic2" width="136" height="164">
+            </div>
+          </li>
+          <li class="service.2-item">
+            <div class="serv-info">
+            <h1>
+              Кредит
+            </h1>
+            <p>
+              Залезть в долговую яму стало проще! Кредитные<br> консультанты подберут для вас наиболее выгодные<br> условия кредита. Выгодные для банка, разумеется.
+            </p>
+            </div>
+            <div class="pic">
+            <img src="images.device/Frame2.png" class="delivery-pic2" width="136" height="164">
+            </div>
           </li>
         </ul>
         </div>
@@ -218,7 +256,7 @@
           </h2>
           <img src="images.device/Auto Layout Horizontal.png" width="125" height="100" class="speaciall-offer-pic2">
         </div>
-        <div class="infom.company">
+        <div class="infom-company">
           <section class="about-us">
             <h1>
               О нас
