@@ -144,9 +144,16 @@ nav {
   color: black;
 }
 
-main {
+.main-container {
   margin: 0 auto;
   width: 1160px;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .category{
@@ -212,8 +219,16 @@ main {
   flex-grow: 1;
 }
 
-.newsletter {
+.newsletter-div {
+  width: 100%;
+  height: 421px;
   background-color: #C4C4C4;
+}
+
+.newsletter {
+  margin: 0 auto;
+  width: 1160px;
+  height: 300px;
 }
 
 .newsletter-button {
@@ -231,4 +246,65 @@ main {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+}
+
+footer {
+  background-color: #444444;
+  width: 100%;
+  height: 321px;
+}
+
+.footer-container {
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.footer-address {
+  width: 239px;
+  height: 182px;
+}
+
+.address-f {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+
+.servise-footer {
+  width: 444px;
+  height: 123px;
+  margin-left: 119px;
+}
+
+.servise-messengers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servise-footer-link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.messsengers {
+  display: flex;
+}
+
+.tel-and-htmllogo {
+  width: 175px;
+  height: 116px;
+  margin-left: 183px;
+}
+
+.phone-number {
+  color: white;
 }
