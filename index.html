@@ -8,61 +8,63 @@
   <body>
     <div class="container">
       <header>
-        <img src="images.device/logo black.png" width="145" height="36" alt="Логотип">
-        <nav>
-          <form class="navigation-form" method="post" action="#">
-            <label>
-              Поиск<input class="search-input" placeholder="Поиск по сайту" type="text">
-            </label>
-            <button class="navigation-serch-input" type="submit">
-              <span class="search-span">
-                Найти
+        <div class="header-continer">
+          <img src="images.device/logo black.png" class="logo-header" width="145" height="36" alt="Логотип">
+          <nav>
+            <div class="nav-container">
+              <form class="navigation-form" method="post" action="#">
+                <input class="search-input" placeholder="Поиск по сайту" type="text">
+                <button class="navigation-serch-input" type="submit">
+                  <span class="search-span">
+                    Найти
+                  </span>
+                </button>
+              </form>
+              <ul class="user-menu">
+                <li class="login">
+                  <a class="login-link" href="#">
+                    Войти
+                  </a>
+                </li>
+                <div class="goods">
+                <li class="goods-compare-item">
+                  <a class="goods-link" href="#">
+                    Сравнить
+                  </a>
+                </li>
+                <li class="goods-basket-item">
+                  <a class="goods-link" href="#">
+                    Корзина
+                  </a>
+                </li>
+                </div>
+              </ul>
+            </div>
+          </nav>
+          <div class="servise">
+            <button class="servis-button" type="submit">
+              <span class="servise-span">
+                Каталог товаров
               </span>
             </button>
-          </form>
-            <ul class="user-menu">
-              <li class="login">
-                <a class="login-link" href="#">
-                  Войти
+            <ul class="servise-list">
+              <li class="servise-item">
+                <a class="servise-link" href="#">
+                  Доставка
                 </a>
               </li>
-              <div class="goods">
-              <li class="goods-compare-item">
-                <a class="goods-link" href="#">
-                  Сравнить
+              <li class="servise-item">
+                <a class="servise-link" href="#">
+                  Гарантия
                 </a>
               </li>
-              <li class="goods-basket-item">
-                <a class="goods-link" href="#">
-                  Корзина
+              <li class="servise-item">
+                <a class="servise-link" href="#">
+                  Контакты
                 </a>
               </li>
-              </div>
             </ul>
-          </nav>
-        <div class="servise">
-          <button class="servis-button" type="submit">
-            <span class="servise-span">
-              Каталог товаров
-            </span>
-          </button>
-          <ul class="servise-list">
-            <li class="servise-item">
-              <a class="servise-link" href="#">
-                Доставка
-              </a>
-            </li>
-            <li class="servise-item">
-              <a class="servise-link" href="#">
-                Гарантия
-              </a>
-            </li>
-            <li class="servise-item">
-              <a class="servise-link" href="#">
-                Контакты
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
       </header>
       <main class="main-index">
@@ -71,136 +73,148 @@
             <ol class="slider-list">
               <li class="slider-item">
                 <img src="images.device/slider-1.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
-                <!--<div class="information">-->
-                <h1>
-                  Порхает как бабочка,<br> жалит как пчела!
-                </h1>
-                <p>
-                  Этот обычный, на первый взгляд, квадрокоптер оснащён<br> мощным лазером, замаскированным под стандартную камеру.
-                </p>
-                <a class="slider-more" href="#">
-                  Подробнее
-                </a>
-                <dl>
-                  <dt>
-                    800 м
-                  </dt>
-                  <dd>
-                    Дальность полёта
-                  </dd>
-                  <dt>
-                    50 м
-                  </dt>
-                  <dd>
-                    Радиус поражения
-                  </dd>
-                </dl>
-                <!--</div>-->
+                <div class="information">
+                  <h1 class="slider-h1">
+                    Порхает как бабочка,<br> жалит как пчела!
+                  </h1>
+                  <p>
+                    Этот обычный, на первый взгляд, квадрокоптер оснащён<br> мощным лазером, замаскированным под стандартную камеру.
+                  </p>
+                  <a class="slider-more" href="#">
+                    Подробнее
+                  </a>
+                  <dl class="slider-dl">
+                    <div class="slider-dtd">
+                      <dt>
+                        800 м
+                      </dt>
+                      <dd>
+                        Дальность полёта
+                      </dd>
+                    </div>
+                    <div class="slider-dtd">
+                      <dt>
+                        50 м
+                      </dt>
+                      <dd>
+                        Радиус поражения
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
               </li>
               <li class="slider-item">
                 <img src="images.device/slider-2.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
-                <!--<div class="information">-->
-                <h1>
-                  Худеем<br> правильно!
-                </h1>
-                <p>
-                  Мотивирующие фитнес-браслеты помогут найти в себе силы<br> не пропускать занятия и соблюдать диету.
-                </p>
-                <a class="slider-more" href="#">
-                  Подробнее
-                </a>
-                <dl>
-                  <dt>
-                    48 часов
-                  </dt>
-                  <dd>
-                    Без подзарядки
-                  </dd>
-                </dl>
-                <!--</div>-->
+                <div class="information">
+                  <h1 class="slider-h1">
+                    Худеем<br> правильно!
+                  </h1>
+                  <p>
+                    Мотивирующие фитнес-браслеты помогут найти в себе силы<br> не пропускать занятия и соблюдать диету.
+                  </p>
+                  <a class="slider-more" href="#">
+                    Подробнее
+                  </a>
+                  <dl class="slider-dl">
+                    <div class="slider-dtd">
+                      <dt>
+                        48 часов
+                      </dt>
+                      <dd>
+                        Без подзарядки
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
               </li>
               <li class="slider-item">
                 <img src="images.device/slider-3.png" class="slider-pic" width="560" height="560" alt="Квадрокоптер.">
-                <!--<div class="information">-->
-                <h1>
-                  Делай селфи,<br> как Бен Стиллер!
-                </h1>
-                <p>
-                  Самая длинная палка для селфи доступна в нашем магазине.<br> Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
-                </p>
-                <a class="slider-more" href="#">
-                  Подробнее
-                </a>
-                <dl>
-                  <dt>
-                    8,5 м
-                  </dt>
-                  <dd>
-                    Длина палки
-                  </dd>
-                  <dt>
-                    5 кг
-                  </dt>
-                  <dd>
-                    Вес палки
-                  </dd>
-                  <dt>
-                    Карбон
-                  </dt>
-                  <dd>
-                    Материал
-                  </dd>
-                </dl>
-                <!--</div>-->
+                <div class="information">
+                  <h1 class="slider-h1">
+                    Делай селфи,<br> как Бен Стиллер!
+                  </h1>
+                  <p>
+                    Самая длинная палка для селфи доступна в нашем магазине.<br> Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
+                  </p>
+                  <a class="slider-more" href="#">
+                    Подробнее
+                  </a>
+                  <dl class="slider-dl">
+                    <div class="slider-dtd">
+                      <dt>
+                        8,5 м
+                      </dt>
+                      <dd>
+                        Длина палки
+                      </dd>
+                    </div>
+                    <div class="slider-dtd">
+                      <dt>
+                        5 кг
+                      </dt>
+                      <dd>
+                        Вес палки
+                      </dd>
+                    </div>
+                    <div class="slider-dtd">
+                      <dt>
+                        Карбон
+                      </dt>
+                      <dd>
+                        Материал
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
               </li>
             </ol>
           </div>
           <section class="category">
             <ul class="category-list">
               <li class="category-item">
-                <figure>
+                <figure class="category-fg">
                   <img src="images.device/index-catalog-images7.jpg" class="category-pic" width="160" height="160">
-                  <figcaption class="category-fg">
+                  <figcaption class="category-fgcap">
                     Виртуальная<br> реальность
                   </figcaption>
                 </figure>
               </li>
               <li class="category-item">
-                <figure>
+                <figure class="category-fg">
                   <img src="images.device/index-catalog-images.png" class="category-pic" width="160" height="160">
-                  <figcaption class="category-fg">
+                  <figcaption class="category-fgcap">
                     Моноподы<br> для селфи
                   </figcaption>
                 </figure>
               </li>
               <li class="category-item">
-                <figure>
+                <figure class="category-fg">
                   <img src="images.device/Property 1=Категория 3.jpg" class="category-pic" width="160" height="160">
-                  <figcaption class="category-fg">
+                  <figcaption class="category-fgcap">
                     Экшн-камеры
                   </figcaption>
                 </figure>
               </li>
               <li class="category-item">
-                <figure>
+                <figure class="category-fg">
                   <img src="images.device/Property 1=Категория 4.jpg" class="category-pic" width="160" height="160">
-                  <figcaption class="category-fg">
+                  <figcaption class="category-fgcap">
                     Фитнес-браслеты
                   </figcaption>
-                </figure>
+                </figure class="category-fg">
               </li>
               <li class="category-item">
-                <figure>
+                <figure class="category-fg">
                   <img src="images.device/Property 1=Категория 5.jpg" class="category-pic" width="160" height="160">
-                  <figcaption class="category-fg">
+                  <figcaption class="category-fgcap">
                     Умные часы
                   </figcaption>
                 </figure>
               </li>
               <li class="category-item">
-                <figure>
+                <figure class="category-fg">
                   <img src="images.device/Property 1=Категория 6.jpg" class="category-pic" width="160" height="160">
-                  <figcaption class="category-fg">
+                  <figcaption class="category-fgcap">
                     Квадроптеры
                   </figcaption>
                 </figure>
@@ -210,45 +224,45 @@
           <div class="service.2">
             <ul class="service.2-list">
               <li class="service.2-item">
-              <div class="serv-info">
-              <h1>
-                Доставка
-              </h1>
-              <p>
-                Мы с удовольствием доставим ваш товар прямо <br> к вашему подъезду совершенно бесплатно! Ведь<br> мы неплохо заработаем, поднимая его на ваш этаж.
-              </p>
-              </div>
-              <div class="pic">
-              <img src="images.device/картинка.png" class="delivery-pic2" width="136" height="164">
-              </div>
-            </li>
-            <li class="service.2-item">
-              <div class="serv-info">
-              <h1>
-                Гарантия
-              </h1>
-              <p>
-                Если из-за возгорания купленного у нас товара у вас<br> сгорит дом — не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.
-              </p>
-              </div>
-              <div class="pic">
-              <img src="images.device/Frame.svg" class="delivery-pic2" width="136" height="164">
-              </div>
-            </li>
-            <li class="service.2-item">
-              <div class="serv-info">
-              <h1>
-                Кредит
-              </h1>
-              <p>
-                Залезть в долговую яму стало проще! Кредитные<br> консультанты подберут для вас наиболее выгодные<br> условия кредита. Выгодные для банка, разумеется.
-              </p>
-              </div>
-              <div class="pic">
-              <img src="images.device/Frame2.png" class="delivery-pic2" width="136" height="164">
-              </div>
-            </li>
-          </ul>
+                <div class="serv-info">
+                  <h1>
+                    Доставка
+                  </h1>
+                  <p>
+                    Мы с удовольствием доставим ваш товар прямо <br> к вашему подъезду совершенно бесплатно! Ведь<br> мы неплохо заработаем, поднимая его на ваш этаж.
+                  </p>
+                </div>
+                <div class="pic">
+                  <img src="images.device/картинка.png" class="delivery-pic2" width="136" height="164">
+                </div>
+              </li>
+              <li class="service.2-item">
+                <div class="serv-info">
+                  <h1>
+                    Гарантия
+                  </h1>
+                  <p>
+                    Если из-за возгорания купленного у нас товара у вас<br> сгорит дом — не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.
+                  </p>
+                </div>
+                <div class="pic">
+                  <img src="images.device/Frame.svg" class="delivery-pic2" width="136" height="164">
+                </div>
+              </li>
+              <li class="service.2-item">
+                <div class="serv-info">
+                  <h1>
+                    Кредит
+                  </h1>
+                  <p>
+                    Залезть в долговую яму стало проще! Кредитные<br> консультанты подберут для вас наиболее выгодные<br> условия кредита. Выгодные для банка, разумеется.
+                  </p>
+                </div>
+                <div class="pic">
+                  <img src="images.device/Frame2.png" class="delivery-pic2" width="136" height="164">
+                </div>
+              </li>
+            </ul>
           </div>
           <div class="speciall-offer">
             <img src="images.device/Car.png" class="speaciall-offer-pic" width="125" height="100">
@@ -313,25 +327,27 @@
         </div>
         <div class="newsletter-div">
         <section class="newsletter">
-          <h1>
-            Подпишитесь<br> на рассылку
-          </h1>
-          <p class="newsletter-p">
-            Еженедельный дайджест с обзорами новинок,<br> длительными тест-драйвами, распаковками, а также акции,<br> спецпредложения и вот это вот всё.
-          </p>
-          <form class="newsletter-form" action="#" method="post">
-            <label>
-              e-mail<input class="filed" placeholder="Ваш e-mail" type="email">
-            </label>
-            <button class="newsletter-button" type="submit">
-              <span class="newsletter-span">
-                Подписаться
-              </span>
-            </button>
-          </form>
-          <p>
-            Это бесплатно
-          </p>
+          <div class="ns-information">
+            <h1 class="ns-h1">
+              Подпишитесь<br> на рассылку
+            </h1>
+            <p class="newsletter-p">
+              Еженедельный дайджест с обзорами новинок,<br> длительными тест-драйвами, распаковками, а также акции,<br> спецпредложения и вот это вот всё.
+            </p>
+          </div>
+          <div class="ns-form-div">
+            <form class="newsletter-form" action="#" method="post">
+              <input class="filed" placeholder="Ваш e-mail" type="email">
+              <button class="newsletter-button" type="submit">
+                <span class="newsletter-span">
+                  Подписаться
+                </span>
+              </button>
+            </form>
+            <p class="ns-p-free">
+              Это бесплатно
+            </p>
+          </div>
         </section>
         </div>
       </main>
