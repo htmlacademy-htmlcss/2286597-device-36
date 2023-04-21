@@ -42,6 +42,7 @@ body {
 
 .logo-header {
   margin-left: 60px;
+  margin-top: -20px;
 }
 
 .nav-container {
@@ -51,6 +52,7 @@ body {
   height: 40px;
   margin: 0 auto;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .navigation-form{
@@ -95,19 +97,24 @@ body {
 
 .user-menu {
   display: flex;
+  justify-content: space-between;
   height: 40px;
   margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .login {
   width: 231px;
-  height: 30px;
-  align-self: center;
+  height: 40px;
 }
 
 .login-link {
   text-decoration: none;
   color: black;
+  display: block;
+  align-items: center;
+  align-self: center;
 }
 
 .goods {
@@ -163,6 +170,7 @@ body {
   justify-content: space-between;
   width: 471px;
   height: 21px;
+  list-style-type: none;
 }
 
 .servise-item {
@@ -190,8 +198,12 @@ body {
 
 .information {
   width: 560px;
-  height: 401px;
+  height: 400px;
   display: grid;
+}
+
+.information p {
+  margin: 0;
 }
 
 .slider-dl {
@@ -203,6 +215,62 @@ body {
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+}
+
+.slider-more-div {
+  width: 220px;
+  height: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.slider-more {
+  display: flex;
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  width: 220px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+dt {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+
+dd {
+  margin: 0;
+  height: 30px;
+}
+
+.slider-dtd-kv {
+  margin-right: 20px;
+}
+
+.slider-dtd-kv:nth-child(2) {
+  margin-right: 0;
+}
+
+.slider-dtd-sp {
+  margin-right: 40px;
+}
+
+.slider-dtd-sp:nth-child(3) {
+  margin-right: 0;
 }
 
 .category{
@@ -215,7 +283,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .category-item {
@@ -240,19 +309,16 @@ body {
   padding-top: 32px;
 }
 
-.service.2-list {
-
-}
-
-.service.2-item {
+.service-two-item {
   width: 1160px;
   height: 320px;
-  display: inlyne;
+  display: flex;
 }
 
 .serv-info {
   width: 490px;
   height: 174px;
+  margin-right: 106px;
 }
 
 .pic {
@@ -263,6 +329,7 @@ body {
 .speciall-offer {
   display: flex;
   background-color: #F0F0F0;
+  margin-bottom: 70px;
 }
 
 .speciall-offer-h2 {
@@ -293,15 +360,6 @@ body {
 .contacts {
   width: 532px;
   height: 545px;
-}
-
-.filed {
-  width: 557px;
-  height: 55px;
-  box-sizing: border-box;
-  padding: 11px 447px 14px 16px;
-  border: 0;
-  background-color: #F0F0F0;
 }
 
 .newsletter-div {
@@ -353,6 +411,16 @@ body {
   display: flex;
 }
 
+.filed {
+  width: 557px;
+  height: 57px;
+  box-sizing: border-box;
+  padding: 11px 447px 14px 16px;
+  border: 0;
+  border-bottom: 3px solid #C4C4C4;
+  background-color: #F0F0F0;
+}
+
 .newsletter-button {
   width: 253px;
   height: 57px;
@@ -389,7 +457,7 @@ body {
 footer {
   background-color: #444444;
   width: 100%;
-  height: 321px;
+  min-height: 321px;
 }
 
 .footer-container {
@@ -398,12 +466,18 @@ footer {
   margin: 0 auto;
 }
 
+.logo-footer {
+}
+
 .footer-address {
   width: 239px;
   height: 182px;
+  margin-top: 138px;
+  margin-bottom: 60px;
 }
 
 .address-f {
+  text-decoration: none;
   font-family: 'Rubik';
   font-weight: 400;
   font-size: 16px;
@@ -413,13 +487,22 @@ footer {
 
 .servise-footer {
   width: 444px;
-  height: 123px;
+  min-height: 124px;
   margin-left: 119px;
+  margin-top: 138px;
+  margin-bottom: 60px;
 }
 
 .servise-messengers {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.servise-item {
+  height: 56px;
 }
 
 .servise-footer-link {
@@ -431,18 +514,38 @@ footer {
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  display: block;
+  height: 56px;
 }
 
 .messsengers {
   display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .tel-and-htmllogo {
   width: 175px;
   height: 116px;
   margin-left: 183px;
+  margin-top: 138px;
+  margin-bottom: 60px;
 }
 
 .phone-number {
   color: white;
 }
+
+.html-logo-link {
+  margin-top: 62px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
